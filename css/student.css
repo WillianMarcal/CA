@@ -1,0 +1,53 @@
+section.content {
+	min-height: 50vh;
+}
+
+.profile-student {
+	background: #E4E4DA;
+	padding: 20px;
+	border-radius: 40px;
+	min-height: 400px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.user-profile {
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.profile-title {
+	font-size: 1.35em;
+	color: #9111BE;
+	text-align: center;
+	letter-spacing: 0.6px;
+	font-family: 'Domine', serif;
+	margin: 10px 0 3px 0;
+}
+
+.profile-number {
+	display: block;
+	color: #6A636C;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.profile-itens {
+	width: 70%;
+}
+
+.profile-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin: 10px 0;
+	padding: 0 5px;
+
+	border-bottom: 1px solid black;
+}

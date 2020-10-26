@@ -1,0 +1,46 @@
+.group-search {
+	width: 100%;
+	margin: 3em auto;
+	justify-content: center;
+}
+
+#search {
+	width: 80%;
+	background: #FAF4F4;
+	border: none;
+	border-radius: 50px 0 0 50px;
+}
+
+#search:focus {	
+	outline: none;
+}
+
+#send {
+	background: #301E9A;
+	color: white;
+	border-left: none;
+	border-radius: 0 50px 50px 0;
+
+	text-transform: capitalize;
+}
+
+#search,
+#send {
+	border: 1px solid #a77e85;
+	padding: 10px 20px;
+}
+
+.not-found-countries {
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.text-similar {
+	font-size: 1.2em;
+	text-align: center;
+	color: #58273c;
+}
+
+#text {
+	color: #240eec;
+}

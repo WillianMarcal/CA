@@ -1,0 +1,63 @@
+#header {
+	background: #3A1313;
+}
+
+.logo-text {
+	font-family: 'Lobster', cursive;
+	font-size: 1.8em;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.logo-text:hover {
+	color: #dcd4d4;
+}
+
+#menu ul {
+	gap: 10px;
+}
+
+#menu .nav-link {
+	color: #e4d4d4;
+	font-size: 1em;
+	position: relative;
+	padding-bottom: 4px;
+
+	font-size: 0.9em;
+
+	overflow-x: hidden;
+}
+
+#menu .active .nav-link {
+	color: white;
+}
+
+#menu .nav-link:hover {
+	color: #fff5f5;
+}
+
+#menu .nav-link:hover:before {
+	content: '';
+	display: block;
+	background: #1FBB54;
+	height: 1px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	animation: borderLinkHeader 0.35s linear forwards;
+}
+
+#menu .active .nav-link:before {
+	background: #89ad15;
+}
+
+#hamburguer {
+	border: 1px solid #ffffff87;
+	border-radius: 4px;
+}
+
+#hamburguer:focus {
+	outline: none;
+	border: 1px solid #ffffffcc;
+}

@@ -1,0 +1,29 @@
+#table-countries {
+	margin-top: 3em;
+}
+
+tr {
+	text-align: center;
+}
+
+.content-img {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background: url(../images/countries.jpg) left center;
+	background-size: cover;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.text-img {
+	font-size: 2.6em;
+    width: 20%;
+    margin-left: 15px;
+    color: #271f1f;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 6px #bbb9ba9c;
+    font-family: 'Lobster', cursive;
+}

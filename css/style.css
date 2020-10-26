@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1em;
+}
+
+.content {
+	max-width: 1500px;
+	margin: auto;
+}
+
+section.content {
+	min-height: 75vh;
+}
+
+main {
+	display: none;
+	width: 80%;
+	margin: 20px auto;
+}

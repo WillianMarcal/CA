@@ -1,0 +1,18 @@
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	border-top: 1.5px solid black;
+}
+
+.text-footer-itens {
+	color: #6a5151;
+	font-size: 0.85em;
+}
+
+.info-credits {
+	font-weight: 800;
+	font-size: 1.1em;
+}
